@@ -645,7 +645,7 @@ class _StreamMessageWidgetState extends State<StreamMessageWidget>
                                 widget.showPinHighlight)
                               _buildPinnedMessage(widget.message),
                             Row(
-                              crossAxisAlignment: CrossAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisSize: MainAxisSize.min,
                               children: <Widget>[
                                 if (!widget.reverse &&

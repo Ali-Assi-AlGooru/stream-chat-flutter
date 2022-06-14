@@ -829,7 +829,7 @@ class StreamMessageInputState extends State<StreamMessageInput>
                     autofocus: widget.autofocus,
                     textAlignVertical: TextAlignVertical.center,
                     decoration: _getInputDecoration(context).copyWith(
-                      hintStyle:  _messageInputTheme.inputTextStyle.copyWith(color: Color(0xFFAFAFAF)),
+                      hintStyle:  _messageInputTheme.inputTextStyle!.copyWith(color: Color(0xFFAFAFAF)),
                       fillColor: Color(0xffF5F5F5),
                       filled: true,
                       border: OutlineInputBorder(
